@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Renata ♥</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" href= "{%static 'estilos.css' %}"> 
+
+    </head>
+    <body>
+<h1> Renata </h1> 
+<h1> Renata Ronquillo Lopez </h1>
+<hr>
+    {% for  i in misalumnos  %}
+    <li>  {{i.nombre}} </li>
+    {% endfor %}
+    <script src="{%static 'estilos.css' %}"> </script>
+    </body>
+</html>
